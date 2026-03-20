@@ -79,7 +79,7 @@ def send_email(html_body, recipients):
 
 # ── 5. MAIN ───────────────────────────────────────────────
 if __name__ == "__main__":
-    RECIPIENTS = ["you@gmail.com", "ceo@company.com"]  # add any emails
+    RECIPIENTS = ["ayushnandy1802@gmail.com", "ashispoddar99@gmail.com"]  # add any emails
     print("Fetching headlines...")
     headlines = fetch_headlines()
     print(f"Got {len(headlines)} headlines. Summarising with Claude...")
